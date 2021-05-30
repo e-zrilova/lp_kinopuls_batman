@@ -25,6 +25,11 @@ body {
   display: flex;
   flex: 0.8;
 }
+.bookmark {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
 .search-input {
   flex: 1;
   background: rgba(196, 196, 196, 0.5);
