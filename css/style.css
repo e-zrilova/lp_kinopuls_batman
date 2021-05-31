@@ -256,6 +256,7 @@ body {
   margin-top: 0;
 }
 .subscribe-input {
+  width: calc(100%-5px);
   background: rgba(241, 241, 241, 0.5);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -265,15 +266,22 @@ body {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 15px;
+  height: 40px;
 }
 .subscribe-button {
+  position: absolute;
   background: #ff8f27;
   border-radius: 0px 5px 5px 0px;
   border: none;
-  padding: 12px;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  top: 0;
+  right: 0;
 }
 
 .subscribe-form {
+  position: relative;
   display: flex;
   margin-bottom: 48px;
 }
